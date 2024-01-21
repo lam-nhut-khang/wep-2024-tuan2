@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai2</title>
+    <style>
+        #body {
+            height: 900px;
+            width: 1000px;
+            margin: auto;
+            background-color: white;
+            padding: 20px; 
+            box-sizing: border-box;
+        }
+        #container {
+            border: 0;
+            box-shadow: 5px 5px 5px 5px gainsboro;
+            height: 850px;
+            width: 950px;
+            margin: auto;
+            background-color: white;
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+        header {
+            background-image: url(background.png);           
+            height: 100px;
+            width: 900px;
+            margin: auto;
+            color: white;
+        }
+        nav {
+            color:white;
+            height: 30px;
+            width: 900px;
+            margin: auto;
+            margin-bottom: 20px;
+            background-color: gray;   
+            text-align: left;
+            font-size: 20px;
+        }
+        a:hover{
+            
+            color: black;
+            cursor: pointer;
+        }
+        section {
+            
+            height: 560px;
+            width: 600px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 20px; 
+            box-sizing: border-box; 
+            position: relative;
+            float: left;
+        }
+        aside {
+            height: 550px;
+            width: 250px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 20px; 
+            box-sizing: border-box; 
+            position: relative;
+            float: right; 
+            margin-right: 2%;
+             border-left: 1px solid beige;
+        }
+        footer{
+            color:white;
+            
+            height: 40px;
+            width: 100%;
+            margin: auto;
+            background-color: gray; 
+            clear: both;
+
+        }
+        article{
+            
+            margin: auto;
+            margin-top: 10px;
+            width: 90%;
+            height: 240px;
+            
+        }
+        #i1{
+            font-size: 18px;
+            
+            margin-top: 15px;
+            width: 95%;
+            height: 250px;
+            
+        }
+        #i2{
+            height: 200px;
+            width: 321px;
+            border: 1px solid gainsboro;
+            float: left; margin-right: 10px;
+        }
+        .a{
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="body">
+        <div id="container">
+            <header>
+                <img src="logo.png" width="90px" height="80px"style="float: left; margin-right: 10px;">
+                <div class="a"><h3>YOKO'S KITCHEN</h3>
+                <p>JAPANESE COOKING CLASSES</p></div>
+            </header>
+            <nav>
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;home</a>
+                <a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;classes</a>
+                <a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; catering</a>
+                <a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;about</a>
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;contact</a>
+            </nav>
+            <section>
+                <article>
+                    <div id="i2"><img src="bakchoi.png"width="300px" height="200px" style="float: left; margin-right: 10px; border: 1px solid gainsboro;"></div>
+                <h3>
+                    Japanese Vegetarian
+                </h3>
+                <p style="color: rgb(234, 97, 120);"> 
+                    Five week course in London
+                </p>
+                <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes. </p>
+                <h4 style="color: rgb(203, 196, 196);">
+                    Bok Chol
+                </h4>    
+            </article>
+                <article>
+                  <div id="i2"><img src="teriyaki.jpg" width="300px" height="200px" style="float: left; margin-right: 10px;border: 1px solid gainsboro;"></div>  
+                <h3>Sauces Masterclass</h3>
+                <p style="color: rgb(244, 107, 129);">One day workshop</p>
+                <p>An intensive one-day course looking at how &nbsp;&nbsp;&nbsp; to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                <h4 style="color: rgb(203, 196, 196);">
+                    Teriyaki Sauce
+                </h4>
+                </article>
+            </section>
+            <aside>
+                <section id="i1" style="color: rgb(253, 98, 124)">
+                    <h3>Popular Recipies</h3>
+                    <p style="border-bottom: 1px solid gainsboro;">Yakitori (grilled chicken)</p>
+                    <p style="border-bottom: 1px solid gainsboro;">Tsukune (minced chicken patties)</p>
+                    <p style="border-bottom: 1px solid gainsboro;">Okonomiyaki (savory pancakes)</p>
+                    <p style="border-bottom: 1px solid gainsboro;"`>Mizutaki (chicken stew)</p>
+                </section>
+                <section id="i1">
+                    <h3 style="color: rgb(249, 114, 137);">Contact</h3>
+                    <p style="font-size: 20px;">Yoko's Kitchen<br>
+                    27 Redchurch Street<br>
+                    Shoreditch<br>
+                    London E2 7DP
+                </section>
+            </aside>
+            <footer>
+                <footer> <b style="color: white;"> &nbsp;&nbsp;&nbsp;<sup>&#169;</sup>2011 Yoko's Kitchen</b></footer>
+
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
